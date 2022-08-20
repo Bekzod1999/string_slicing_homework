@@ -7,6 +7,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[0:len(s)-n]
-x=main('codeschooluz', 3)
+    if n < 0:
+        k = s[0:len(s)+n]
+    else:
+        k = s[0:len(s)-n] 
+    return k
+x=main('apple', 1)
 print(x)
