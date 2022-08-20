@@ -7,13 +7,9 @@ def main(s,n,k):
         k(int): parameter
     Returns:
         str: answer
-    """
-    # if n == k:
-    #     p = s[n]
-    # else:
-    
+    """    
     return s[n:k]
-x=main('codeschooluz', 0, 2)
+x=main('codeschooluz', 1, 2)
 print(x)
 
 
