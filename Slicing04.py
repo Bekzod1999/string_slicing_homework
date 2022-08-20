@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[0:n]
+x=main('bekzod', 4)
+print(x)
