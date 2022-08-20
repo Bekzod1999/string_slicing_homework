@@ -16,10 +16,8 @@ def main(s,n):
 # x=main('apple', 1)
 # print(x)
 
-    if n==len(s):
-        k = s[0]
-    else:
-        k = s[:len(s)-n]
-    return k
-x=main('apple', 1)
+    
+        
+    return s[:-n]
+x=main('cd', 1)
 print(x)
