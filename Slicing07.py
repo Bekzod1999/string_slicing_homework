@@ -7,10 +7,19 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if n < 0:
-        k = s[0:len(s)+n]
+    
+#     if n < 0:
+#         k = s[0:len(s)+n]
+#     else:
+#         k = s[0:len(s)-n] 
+#     return k
+# x=main('apple', 1)
+# print(x)
+
+    if n==len(s):
+        k = s[0]
     else:
-        k = s[0:len(s)-n] 
+        k = s[:len(s)-n]
     return k
 x=main('apple', 1)
 print(x)
