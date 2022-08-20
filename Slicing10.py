@@ -8,4 +8,10 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    if n == k:
+        p = s[n]
+    else:
+        p = s[n:k]
+    return p
+x=main('codeschool', 2, 5)
+print(x)
