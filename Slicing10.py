@@ -13,5 +13,5 @@ def main(s,n,k):
     else:
         p = s[n:k]
     return p
-x=main('codeschool', 2, 5)
+x=main('apdle', 2, 2)
 print(x)
